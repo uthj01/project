@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+ .heading {
+ 	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ } 
+ .container {
+ 	padding-right: 0px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .row {
+
+   display: table;
+   clear: both;
+ }
+
+ .rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pagination {
+  display: inline-block;
+  border:1px solid #ddd;
+  border-radius: 4px
+  font-size:10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.center {
+  text-align: center;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+.topnav a:hover{
+	color: red;
+}
+.topnav-right {
+  float: right;
+}
+h1{
+	width: 60%;
+	height: 20px;
+   text-indent: 60px;
+}
+div.gallery{
+	width:45%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   float: left;
+
+}
+.column {
+  float: left;
+  width: 31.85%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.img-circle{
+	border-radius: 50%;
+	margin-top: 100px;
+}
+.image{
+	color:yellow;
+	margin-left: 55px;
+}
+.button {
+ 	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+
+}
+.cp{
+	background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+h2{
+	width: 60%;
+	height: 20px;
+	color: blue;
+}
+h3{
+	width: 60%;
+	height: 20px;
+	color: blue;
+}
+h4{
+	width: 60%;
+	height: 20px;
+	color: blue;
+}
+h5{
+	width: 60%;
+	height: 20px;
+	color: blue;
+}
+h6{
+	width: 60S%;
+	height: 20px;
+	color: blue;
+}
